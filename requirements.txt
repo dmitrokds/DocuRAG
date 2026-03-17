@@ -1,0 +1,11 @@
+chromadb
+fastapi
+python-docx
+pypdf
+pandas
+aiofiles
+aiosqlite
+python-multipart
+langchain-anthropic
+langchain-openai
+langchain-google-genai

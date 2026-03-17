@@ -1,0 +1,19 @@
+services:
+  chroma:
+    image: chromadb/chroma:latest
+    container_name: chroma
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./chroma_data:/data
+
+  app:
+    build: .
+    container_name: backend
+    ports:
+      - "3000:3000"
+    depends_on:
+      - chroma
+    volumes:
+      - ./logs:/app/logs
+      - ./db_data:/app/db_data
