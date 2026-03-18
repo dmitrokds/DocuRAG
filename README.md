@@ -130,4 +130,12 @@ document_service = document.main.DocumentService(
 ```
 docker compose up
 ```
-   
+
+## Future Improvments
+
+1. Додати фронтенд - зробити окремий сервіс у докер і запустити наприклад flask
+2. Додати user_id - щоб у кожного юзера були свої файли
+3. Покращити промпт
+4. Зробити ШІ агента
+
+## My draft
