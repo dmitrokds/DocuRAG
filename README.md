@@ -139,3 +139,5 @@ docker compose up
 4. Зробити ШІ агента
 
 ## My draft
+
+![IMG_4762](https://github.com/user-attachments/assets/ecba77cd-d223-4680-863a-4893f5f29dd9)
